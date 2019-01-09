@@ -16,19 +16,15 @@ function getFormValues(){
 
     if(number % firstDivision == 0 && number % secondDivision == 0){
         return {className: "bishBoshColor", textContent: "Bish Bosh" };
-       //outputDiv.innerHTML += '<p class="bishBoshColor">Bish Bosh</p>';
     }
     else if(number % firstDivision == 0){
         return {className: "bishColor", textContent: "Bish" };
-        //outputDiv.innerHTML += '<p class="bishColor">Bish</p>';
     }
     else if(number % secondDivision == 0){
         return {className: "boshColor", textContent: "Bosh" };
-        //outputDiv.innerHTML += '<p class="boshColor">Bosh</p>';
     }
     else{
         return {className: "", textContent: number };
-        //outputDiv.innerHTML += `<p>${i}</p>`;
     }
 
   }
