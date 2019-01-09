@@ -1,0 +1,16 @@
+
+p{
+    line-height: .5em;
+  }
+  
+  .bishColor{
+    color: green;
+  }
+  
+  .boshColor{
+    color: red;
+  }
+  
+  .bishBoshColor{
+    color: blue;
+  }
