@@ -11,19 +11,19 @@
     </header>
     <div>
         <label>Number of times: </label>
-        <input id="nrOfTimes" type="number">
+        <input id="nrOfTimes" type="number" required>
         </div>
         <div>
         <label>First division: </label>
-        <input id="firstDivision" type="number">
+        <input id="firstDivision" type="number" min="1" required>
         </div>
         <div>
         <label>Second division: </label>
-        <input id="secondDivision" type="number">
+        <input id="secondDivision" type="number" min="1" required>
         </div>
         <button id="btnSubmit">Submit</button><br>
         
-        <div id="whatever">
+        <div id="outputDiv">
     </div>
 
     <footer>
@@ -34,7 +34,7 @@
     <script src="src/bish_bosh.js"></script>
     <script>
         function start(){
-            let outputDiv = document.getElementById("whatever");
+            let outputDiv = document.getElementById("outputDiv");
             /** Clear outpout div **/
             outputDiv.innerHTML = "";
     

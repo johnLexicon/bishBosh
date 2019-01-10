@@ -1,16 +1,25 @@
 
+h1{
+  text-shadow: 5px 5px 5px green;
+  color: #555;
+}
+
 p{
-    line-height: .5em;
-  }
+  line-height: .5em;
+}
   
-  .bishColor{
-    color: green;
-  }
+.bishColor{
+  color: green;
+}
   
-  .boshColor{
-    color: red;
-  }
+.boshColor{
+  color: red;
+}
   
-  .bishBoshColor{
-    color: blue;
-  }
+.bishBoshColor{
+  color: blue;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
